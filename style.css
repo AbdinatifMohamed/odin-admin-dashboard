@@ -218,3 +218,59 @@ img {
     height: auto;
     width: 1.3rem;
 }
+
+.hero__sidebar {
+    grid-area: 1 / 2 / 2 / 3;
+    padding: 2rem;
+}
+
+
+.announcements h2 { 
+    margin-bottom: .5rem;
+}
+
+.announcements__card {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.announcements__card h4 {
+    margin: .5rem 0;
+}
+.announcements__card p {
+    font-size: 12px;
+}
+
+.announcements__card > div:nth-child(1), .announcements__card > div:nth-child(2){
+    padding-bottom: 1rem;
+    border-bottom:  2px solid rgba(128, 128, 128, 0.144);
+    
+}
+
+.trending {
+    margin-top: .5rem;
+}
+.trending h2 {
+    margin-bottom: .5rem;
+}
+
+.trending__card {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.trending__card > div {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin-bottom: .5rem;
+}
+
+.trending__card > div > img {
+    height: auto;
+    width: 3rem;
+    border-radius: 100%;
+    margin-right: .5rem;
+}
